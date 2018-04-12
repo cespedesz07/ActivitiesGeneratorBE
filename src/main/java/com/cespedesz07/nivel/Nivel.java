@@ -1,8 +1,12 @@
 package com.cespedesz07.nivel;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import javax.persistence.*;
+
+import com.cespedesz07.texto.Texto;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
+import java.util.List;
+import java.util.Set;
 
 @Entity
 public class Nivel {
@@ -12,6 +16,11 @@ public class Nivel {
     private Integer id;
 
     private String nombre;
+
+    @OneToMany(mappedBy = "nivel")
+    @JsonIgnore // Esta Etiqueta evita que se muestre un JSON Recursivo
+    private List<Texto> textos;
+
 
     public Integer getId() {
         return id;
@@ -27,5 +36,13 @@ public class Nivel {
 
     public void setNombre(String nombre) {
         this.nombre = nombre;
+    }
+
+    public List<Texto> getTextos(){
+        return textos;
+    }
+
+    public void setTextos( List<Texto> textos ) {
+        this.textos = textos;
     }
 }
