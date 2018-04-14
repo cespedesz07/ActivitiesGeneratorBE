@@ -11,7 +11,8 @@ public class Texto {
     @Column(name = "idtexto")
     private Integer id;
 
-    private String titulo_doc;
+    @Column(name = "titulo_doc")
+    private String tituloDoc;
 
     private String autor;
 
@@ -31,12 +32,12 @@ public class Texto {
         this.id = id;
     }
 
-    public String getTitulo_doc() {
-        return titulo_doc;
+    public String getTituloDoc() {
+        return tituloDoc;
     }
 
-    public void setTitulo_doc(String titulo_doc) {
-        this.titulo_doc = titulo_doc;
+    public void setTitulo_doc(String tituloDoc) {
+        this.tituloDoc = tituloDoc;
     }
 
     public String getAutor() {

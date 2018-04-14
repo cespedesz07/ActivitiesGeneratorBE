@@ -1,8 +1,9 @@
 package com.cespedesz07.actividad;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import com.cespedesz07.secuenciaActividades.SecuenciaActividades;
+
+import javax.persistence.*;
+import java.util.List;
 
 @Entity
 public class Actividad {
@@ -15,6 +16,8 @@ public class Actividad {
 
     private String descripcion;
 
+    @ManyToMany(mappedBy = "actividades")
+    private List<SecuenciaActividades> secuenciaActividades;
 
     public Integer getId() {
         return id;
@@ -38,5 +41,13 @@ public class Actividad {
 
     public void setDescripcion(String descripcion) {
         this.descripcion = descripcion;
+    }
+
+    public List<SecuenciaActividades> getSecuenciaActividades() {
+        return secuenciaActividades;
+    }
+
+    public void setSecuenciaActividades(List<SecuenciaActividades> secuenciaActividades) {
+        this.secuenciaActividades = secuenciaActividades;
     }
 }
