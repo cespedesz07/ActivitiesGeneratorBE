@@ -3,6 +3,11 @@ package com.cespedesz07.texto;
 import javax.persistence.*;
 
 import com.cespedesz07.nivel.Nivel;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import org.springframework.core.io.Resource;
+import org.springframework.core.io.ResourceLoader;
+
+import java.io.FileInputStream;
 
 @Entity
 public class Texto {
@@ -23,6 +28,9 @@ public class Texto {
     @ManyToOne
     @JoinColumn(name = "nivel_idnivel")
     private Nivel nivel;
+
+    @JsonIgnore
+    private String ruta;
 
     public Integer getId() {
         return id;
@@ -64,12 +72,19 @@ public class Texto {
         this.fecha = fecha;
     }
 
-
     public Nivel getNivel() {
         return nivel;
     }
 
     public void setNivel(Nivel nivel) {
         this.nivel = nivel;
+    }
+
+    public String getRuta() {
+        return ruta;
+    }
+
+    public void setRuta(String ruta) {
+        this.ruta = ruta;
     }
 }

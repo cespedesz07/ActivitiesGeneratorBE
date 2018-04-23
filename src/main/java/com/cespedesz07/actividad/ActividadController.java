@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 public class ActividadController {
 
     @Autowired
-    private ActividadRepository actividadRepository;
+    public ActividadRepository actividadRepository;
 
     @CrossOrigin
     @ResponseBody

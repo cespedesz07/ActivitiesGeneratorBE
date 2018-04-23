@@ -28,6 +28,9 @@ public class SecuenciaActividades {
     @Column(name = "nivel_idnivel")
     private Integer idNivel;
 
+    @Column(name = "nocion_idnocion")
+    private Integer idNocion;
+
     @ManyToMany(cascade = {CascadeType.REFRESH, CascadeType.MERGE})
     @JoinTable(name = "secuencia_actividad_registro",
             joinColumns = @JoinColumn(
@@ -87,6 +90,14 @@ public class SecuenciaActividades {
 
     public void setIdNivel(Integer idNivel) {
         this.idNivel = idNivel;
+    }
+
+    public Integer getIdNocion() {
+        return idNocion;
+    }
+
+    public void setIdNocion(Integer idNocion) {
+        this.idNocion = idNocion;
     }
 
     public List<Actividad> getActividades() {

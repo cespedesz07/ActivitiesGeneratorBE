@@ -1,6 +1,7 @@
 package com.cespedesz07.actividad;
 
 import com.cespedesz07.secuenciaActividades.SecuenciaActividades;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import javax.persistence.*;
 import java.util.List;
@@ -17,6 +18,7 @@ public class Actividad {
     private String descripcion;
 
     @ManyToMany(mappedBy = "actividades")
+    @JsonIgnore //Esta notación evita un JSON Recursivo y lo Ignora del Response
     private List<SecuenciaActividades> secuenciaActividades;
 
     public Integer getId() {
