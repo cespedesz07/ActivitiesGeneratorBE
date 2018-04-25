@@ -16,6 +16,11 @@ public class Nocion {
 
     private String nombre;
 
+    private boolean disponible;
+
+    @Column(name = "xml_ctags")
+    private String xmlCtags;
+
     @ManyToOne
     @JoinColumn(name = "nivel_idnivel")
     @JsonIgnore
@@ -43,5 +48,21 @@ public class Nocion {
 
     public void setNombre(String nombre) {
         this.nombre = nombre;
+    }
+
+    public boolean isDisponible() {
+        return disponible;
+    }
+
+    public void setDisponible(boolean disponible) {
+        this.disponible = disponible;
+    }
+
+    public String getXmlCtags() {
+        return xmlCtags;
+    }
+
+    public void setXmlCtags(String xmlCtags) {
+        this.xmlCtags = xmlCtags;
     }
 }
