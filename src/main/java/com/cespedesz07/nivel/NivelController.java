@@ -1,5 +1,6 @@
 package com.cespedesz07.nivel;
 
+import com.cespedesz07.lectura.Lectura;
 import com.cespedesz07.nocion.Nocion;
 import com.cespedesz07.texto.Texto;
 import org.springframework.beans.factory.annotation.Autowired;

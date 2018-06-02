@@ -1,7 +1,9 @@
 package com.cespedesz07.nocion;
 
+import com.cespedesz07.lectura.Lectura;
 import com.cespedesz07.nivel.Nivel;
 import com.cespedesz07.secuenciaActividades.SecuenciaActividades;
+import com.cespedesz07.tagNocion.TagNocion;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import javax.persistence.*;
@@ -18,13 +20,17 @@ public class Nocion {
 
     private boolean disponible;
 
-    @Column(name = "xml_ctags")
-    private String xmlCtags;
-
     @ManyToOne
     @JoinColumn(name = "nivel_idnivel")
     @JsonIgnore
     private Nivel nivel;
+
+    @OneToMany(mappedBy = "nocion")
+    @JsonIgnore
+    private List<Lectura> lecturas;
+
+    @OneToMany(mappedBy = "nocion")
+    private List<TagNocion> tagsNociones;
 
     public Integer getId() {
         return id;
@@ -58,11 +64,19 @@ public class Nocion {
         this.disponible = disponible;
     }
 
-    public String getXmlCtags() {
-        return xmlCtags;
+    public List<Lectura> getLecturas() {
+        return lecturas;
     }
 
-    public void setXmlCtags(String xmlCtags) {
-        this.xmlCtags = xmlCtags;
+    public void setLecturas(List<Lectura> lecturas) {
+        this.lecturas = lecturas;
+    }
+
+    public List<TagNocion> getTagsNociones() {
+        return tagsNociones;
+    }
+
+    public void setTagsNociones(List<TagNocion> tagsNociones) {
+        this.tagsNociones = tagsNociones;
     }
 }

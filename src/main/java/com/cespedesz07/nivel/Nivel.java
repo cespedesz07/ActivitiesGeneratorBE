@@ -2,6 +2,7 @@ package com.cespedesz07.nivel;
 
 import javax.persistence.*;
 
+import com.cespedesz07.lectura.Lectura;
 import com.cespedesz07.nocion.Nocion;
 import com.cespedesz07.texto.Texto;
 import com.fasterxml.jackson.annotation.JsonIgnore;
