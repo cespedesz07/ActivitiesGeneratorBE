@@ -45,7 +45,7 @@ public class TipoNocion {
         this.tipo = tipo;
     }
 
-    public TagNocion getTagNocion() {
+    public TagNocion getTagNocionM() {
         return tagNocion;
     }
 
