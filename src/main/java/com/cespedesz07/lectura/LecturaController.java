@@ -29,8 +29,7 @@ public class LecturaController {
     // http://localhost:8080/download1?fileName=abc.zip
     // Using ResponseEntity<InputStreamResource>
     @RequestMapping("/modals")
-    public ResponseEntity<InputStreamResource> downloadFile1(
-            @RequestParam(defaultValue = DEFAULT_FILE_NAME) String fileName) throws IOException {
+    public ResponseEntity<InputStreamResource> downloadFile( @RequestParam(defaultValue = DEFAULT_FILE_NAME) String fileName) throws IOException {
         String mineType = servletContext.getMimeType(fileName);
         MediaType mediaType = MediaType.parseMediaType(mineType);
         System.out.println("fileName: " + fileName);

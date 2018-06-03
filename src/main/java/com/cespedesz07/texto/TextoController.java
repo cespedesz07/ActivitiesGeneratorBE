@@ -5,10 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 
 @RestController
 @RequestMapping( path = "/texto" )
@@ -26,6 +23,10 @@ public class TextoController {
         String content = "";
         try {
             FileReader fileReader = new FileReader(texto.getRuta());
+            File archivo = new File( texto.getRuta() );
+
+            System.out.println( "RUTA ABSOLUTA: " + archivo.getAbsolutePath() );
+
             BufferedReader bufferedReader = new BufferedReader(fileReader);
             String currentLine;
             while ((currentLine = bufferedReader.readLine()) != null) {
