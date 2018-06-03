@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b28322fb-9a52-4b59-bf84-a58b22f2963a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cespedesz07/lectura/LecturaController.java" afterPath="$PROJECT_DIR$/src/main/java/com/cespedesz07/lectura/LecturaController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cespedesz07/texto/TextoController.java" afterPath="$PROJECT_DIR$/src/main/java/com/cespedesz07/texto/TextoController.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,8 +21,8 @@
       <file leaf-file-name="LecturaController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cespedesz07/lectura/LecturaController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="46" column="26" lean-forward="true" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+            <state relative-caret-position="235">
+              <caret line="40" column="47" lean-forward="false" selection-start-line="40" selection-start-column="47" selection-end-line="40" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -890,8 +889,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cespedesz07/lectura/LecturaController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="46" column="26" lean-forward="true" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+        <state relative-caret-position="235">
+          <caret line="40" column="47" lean-forward="false" selection-start-line="40" selection-start-column="47" selection-end-line="40" selection-end-column="47" />
           <folding />
         </state>
       </provider>
