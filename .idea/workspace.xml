@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b28322fb-9a52-4b59-bf84-a58b22f2963a" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_5_6.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_mail_1_4_3_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_5_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/cespedesz07/enviarEmail/EnviarEmailController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/cespedesz07/enviarEmail/EstructuraEmail.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/ActivitiesGeneratorBE.iml" afterPath="$PROJECT_DIR$/ActivitiesGeneratorBE.iml" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cespedesz07/lectura/LecturaController.java" afterPath="$PROJECT_DIR$/src/main/java/com/cespedesz07/lectura/LecturaController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" afterPath="$PROJECT_DIR$/target/classes/application.properties" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cespedesz07/lectura/LecturaController.class" afterPath="$PROJECT_DIR$/target/classes/com/cespedesz07/lectura/LecturaController.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,21 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LecturaController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cespedesz07/lectura/LecturaController.java">
+      <file leaf-file-name="SecuenciaActividadesController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cespedesz07/secuenciaActividades/SecuenciaActividadesController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="28" column="6" lean-forward="false" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NocionController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cespedesz07/nocion/NocionController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="30" column="4" lean-forward="false" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="16" />
+            <state relative-caret-position="124">
+              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -97,9 +99,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/hello/Greeting.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hello/GreetingController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hello/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/mysql_calls/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/mysql_calls/UserRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/Usuario.java" />
@@ -130,8 +129,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/cespedesz07/nocion/NocionRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cespedesz07/secuenciaActividades/SecuenciaActividades.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cespedesz07/secuenciaActividades/SecuenciaActividadesController.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/cespedesz07/texto/Texto.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cespedesz07/lectura/LecturaRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cespedesz07/nivel/Nivel.java" />
@@ -147,6 +144,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/cespedesz07/tipoNocion/TipoNocion.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cespedesz07/texto/TextoController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cespedesz07/lectura/LecturaController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cespedesz07/enviarEmail/EnviarEmail.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cespedesz07/enviarEmail/IEstructuraEmail.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cespedesz07/enviarEmail/EstructuraEmail.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cespedesz07/enviarEmail/EnviarEmailController.java" />
       </list>
     </option>
   </component>
@@ -207,7 +210,53 @@
             <path>
               <item name="ActivitiesGeneratorBE" type="b2602c69:ProjectViewProjectNode" />
               <item name="ActivitiesGeneratorBE" type="462c0819:PsiDirectoryNode" />
-              <item name="tagged_texts" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ActivitiesGeneratorBE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ActivitiesGeneratorBE" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ActivitiesGeneratorBE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ActivitiesGeneratorBE" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ActivitiesGeneratorBE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ActivitiesGeneratorBE" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cespedesz07" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ActivitiesGeneratorBE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ActivitiesGeneratorBE" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cespedesz07" type="462c0819:PsiDirectoryNode" />
+              <item name="enviarEmail" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ActivitiesGeneratorBE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ActivitiesGeneratorBE" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cespedesz07" type="462c0819:PsiDirectoryNode" />
+              <item name="secuenciaActividades" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ActivitiesGeneratorBE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ActivitiesGeneratorBE" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -439,7 +488,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30949107" sideWeight="0.503231" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18578352" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18578352" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287483" sideWeight="0.49676898" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3285568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -473,20 +522,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.5.RELEASE/spring-core-4.3.5.RELEASE.jar!/org/springframework/util/StringUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.5.RELEASE/spring-webmvc-4.3.5.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/AbstractMessageConverterMethodProcessor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="156" column="0" lean-forward="false" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.5.RELEASE/spring-webmvc-4.3.5.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestResponseBodyMethodProcessor.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="274">
@@ -555,27 +590,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
           <caret line="30" column="4" lean-forward="false" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cespedesz07/secuenciaActividades/SecuenciaActividadesController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="26" column="39" lean-forward="false" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="40" column="21" lean-forward="false" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="26" lean-forward="false" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -755,26 +769,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cespedesz07/secuenciaActividades/SecuenciaActividades.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="835">
-          <caret line="94" column="32" lean-forward="false" selection-start-line="94" selection-start-column="32" selection-end-line="94" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar!/javax/persistence/JoinColumn.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cespedesz07/secuenciaActividades/SecuenciaActividadesRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="103" lean-forward="true" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="103" />
           <folding />
         </state>
       </provider>
@@ -808,13 +806,13 @@
         <state relative-caret-position="350">
           <caret line="32" column="21" lean-forward="true" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1347#1348#0" expanded="true" />
-            <element signature="e#1378#1379#0" expanded="true" />
-            <element signature="e#1521#1522#0" expanded="true" />
-            <element signature="e#1556#1557#0" expanded="true" />
-            <element signature="e#1621#1622#0" expanded="true" />
-            <element signature="e#1669#1670#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1347#1348#0" expanded="false" />
+            <element signature="e#1378#1379#0" expanded="false" />
+            <element signature="e#1521#1522#0" expanded="false" />
+            <element signature="e#1556#1557#0" expanded="false" />
+            <element signature="e#1621#1622#0" expanded="false" />
+            <element signature="e#1669#1670#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -824,23 +822,23 @@
         <state relative-caret-position="117">
           <caret line="23" column="43" lean-forward="false" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="43" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#571#572#0" expanded="true" />
-            <element signature="e#596#597#0" expanded="true" />
-            <element signature="e#633#634#0" expanded="true" />
-            <element signature="e#661#662#0" expanded="true" />
-            <element signature="e#691#692#0" expanded="true" />
-            <element signature="e#717#718#0" expanded="true" />
-            <element signature="e#755#756#0" expanded="true" />
-            <element signature="e#785#786#0" expanded="true" />
-            <element signature="e#818#819#0" expanded="true" />
-            <element signature="e#847#848#0" expanded="true" />
-            <element signature="e#891#892#0" expanded="true" />
-            <element signature="e#927#928#0" expanded="true" />
-            <element signature="e#977#978#0" expanded="true" />
-            <element signature="e#1013#1014#0" expanded="true" />
-            <element signature="e#1081#1082#0" expanded="true" />
-            <element signature="e#1131#1132#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#571#572#0" expanded="false" />
+            <element signature="e#596#597#0" expanded="false" />
+            <element signature="e#633#634#0" expanded="false" />
+            <element signature="e#661#662#0" expanded="false" />
+            <element signature="e#691#692#0" expanded="false" />
+            <element signature="e#717#718#0" expanded="false" />
+            <element signature="e#755#756#0" expanded="false" />
+            <element signature="e#785#786#0" expanded="false" />
+            <element signature="e#818#819#0" expanded="false" />
+            <element signature="e#847#848#0" expanded="false" />
+            <element signature="e#891#892#0" expanded="false" />
+            <element signature="e#927#928#0" expanded="false" />
+            <element signature="e#977#978#0" expanded="false" />
+            <element signature="e#1013#1014#0" expanded="false" />
+            <element signature="e#1081#1082#0" expanded="false" />
+            <element signature="e#1131#1132#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -850,23 +848,23 @@
         <state relative-caret-position="236">
           <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
-            <element signature="e#504#505#0" expanded="true" />
-            <element signature="e#541#542#0" expanded="true" />
-            <element signature="e#569#570#0" expanded="true" />
-            <element signature="e#611#612#0" expanded="true" />
-            <element signature="e#649#650#0" expanded="true" />
-            <element signature="e#711#712#0" expanded="true" />
-            <element signature="e#765#766#0" expanded="true" />
-            <element signature="e#796#797#0" expanded="true" />
-            <element signature="e#823#824#0" expanded="true" />
-            <element signature="e#863#864#0" expanded="true" />
-            <element signature="e#895#896#0" expanded="true" />
-            <element signature="e#941#942#0" expanded="true" />
-            <element signature="e#980#981#0" expanded="true" />
-            <element signature="e#1034#1035#0" expanded="true" />
-            <element signature="e#1077#1078#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#479#480#0" expanded="false" />
+            <element signature="e#504#505#0" expanded="false" />
+            <element signature="e#541#542#0" expanded="false" />
+            <element signature="e#569#570#0" expanded="false" />
+            <element signature="e#611#612#0" expanded="false" />
+            <element signature="e#649#650#0" expanded="false" />
+            <element signature="e#711#712#0" expanded="false" />
+            <element signature="e#765#766#0" expanded="false" />
+            <element signature="e#796#797#0" expanded="false" />
+            <element signature="e#823#824#0" expanded="false" />
+            <element signature="e#863#864#0" expanded="false" />
+            <element signature="e#895#896#0" expanded="false" />
+            <element signature="e#941#942#0" expanded="false" />
+            <element signature="e#980#981#0" expanded="false" />
+            <element signature="e#1034#1035#0" expanded="false" />
+            <element signature="e#1077#1078#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -889,8 +887,66 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cespedesz07/lectura/LecturaController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="28" column="6" lean-forward="false" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+        <state relative-caret-position="282">
+          <caret line="40" column="65" lean-forward="false" selection-start-line="40" selection-start-column="65" selection-end-line="40" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="45" lean-forward="false" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="43" column="47" lean-forward="false" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cespedesz07/enviarEmail/EnviarEmailController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cespedesz07/enviarEmail/EstructuraEmail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="10" lean-forward="false" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cespedesz07/secuenciaActividades/SecuenciaActividadesRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cespedesz07/secuenciaActividades/SecuenciaActividades.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cespedesz07/secuenciaActividades/SecuenciaActividadesController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
           <folding />
         </state>
       </provider>

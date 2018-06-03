@@ -26,9 +26,9 @@ public class LecturaController {
     private LecturaRepository lecturaRepository;
 
     // Directory Used for Local execution
-    //private static final String DIRECTORY = "/Users/scespedesz/Documents/Projects/ActivitiesGeneratorBE/";
+    private static final String DIRECTORY = "/Users/scespedesz/Documents/Projects/ActivitiesGeneratorBE/";
     // Directory Used for Heroku remote execution
-    private static final String DIRECTORY = "/app/";
+    //private static final String DIRECTORY = "/app/";
 
     @Autowired
     private ServletContext servletContext;
@@ -39,11 +39,12 @@ public class LecturaController {
             throws ApplicationException, FileNotFoundException, IOException {
         String fileRelativePath = lecturaRepository.findOne( idLectura ).getRuta();
         File file = new File(DIRECTORY + "/" + fileRelativePath);
-        System.out.println( "ABSOLUTE PATH: " + file.getAbsolutePath() );
         if ( file != null ) {
             String mimeType = URLConnection.guessContentTypeFromName(file.getName());
             response.setContentType(mimeType);
             response.setHeader("Content-Disposition", String.format("inline; filename=\"%s\"", file.getName()));
+            response.setHeader("Origin", "*");   // Header Necesario para habilitar
+                                                        // la lectura del PDF en el componente de angular5
             response.setContentLength((int) file.length());
             InputStream inputStream = new BufferedInputStream(new FileInputStream(file));
             FileCopyUtils.copy(inputStream, response.getOutputStream());
