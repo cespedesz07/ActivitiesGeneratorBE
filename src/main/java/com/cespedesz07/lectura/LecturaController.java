@@ -17,6 +17,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.*;
 import java.net.URLConnection;
 
+@CrossOrigin
 @RestController
 @RequestMapping( path = "/lectura" )
 public class LecturaController {
@@ -34,7 +35,7 @@ public class LecturaController {
 
     @GetMapping(value = "/{idLectura}/loadPDF")
     @ResponseBody
-    public void generateWithResponseBody( @PathVariable int idLectura, final HttpServletRequest httpRequest, final HttpServletResponse response)
+    public void generatePDF( @PathVariable int idLectura, final HttpServletRequest httpRequest, final HttpServletResponse response)
             throws ApplicationException, FileNotFoundException, IOException {
         String fileRelativePath = lecturaRepository.findOne( idLectura ).getRuta();
         File file = new File(DIRECTORY + "/" + fileRelativePath);
