@@ -19,7 +19,7 @@ public class TipoNocion {
     @ManyToOne
     @JoinColumn(name = "tag_nocion_idtag_nocion")
     @JsonIgnore
-    private TagNocion tagNocion;
+    private TagNocion tagNocionForeign;
 
     public Integer getId() {
         return id;
@@ -45,11 +45,11 @@ public class TipoNocion {
         this.tipo = tipo;
     }
 
-    public TagNocion getTagNocionM() {
-        return tagNocion;
+    public TagNocion getTagNocionForeign() {
+        return tagNocionForeign;
     }
 
-    public void setTagNocion(TagNocion tag) {
-        this.tagNocion = tag;
+    public void setTagNocionForeign(TagNocion tag) {
+        this.tagNocionForeign = tag;
     }
 }

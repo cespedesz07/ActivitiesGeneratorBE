@@ -21,7 +21,7 @@ public class TagNocion {
     @JsonIgnore
     private Nocion nocion;
 
-    @OneToMany(mappedBy = "tagNocion")
+    @OneToMany(mappedBy = "tagNocionForeign")
     private List<TipoNocion> tiposNociones;
 
     public Integer getId() {
