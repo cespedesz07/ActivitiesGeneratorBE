@@ -23,10 +23,6 @@ public class TextoController {
         String content = "";
         try {
             FileReader fileReader = new FileReader(texto.getRuta());
-            File archivo = new File( texto.getRuta() );
-
-            System.out.println( "RUTA ABSOLUTA: " + archivo.getAbsolutePath() );
-
             BufferedReader bufferedReader = new BufferedReader(fileReader);
             String currentLine;
             while ((currentLine = bufferedReader.readLine()) != null) {
