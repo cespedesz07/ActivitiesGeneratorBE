@@ -2,19 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b28322fb-9a52-4b59-bf84-a58b22f2963a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_5_6.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_mail_1_4_3_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_5_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/cespedesz07/enviarEmail/EnviarEmailController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/cespedesz07/enviarEmail/EstructuraEmail.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lectures/B1/Present_Perfect_B1.pdf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lectures/B1/Simple_Past_B1.pdf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lectures/B2/Adjectives_and_Adverbs_B2.pdf" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/ActivitiesGeneratorBE.iml" afterPath="$PROJECT_DIR$/ActivitiesGeneratorBE.iml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cespedesz07/lectura/LecturaController.java" afterPath="$PROJECT_DIR$/src/main/java/com/cespedesz07/lectura/LecturaController.java" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" afterPath="$PROJECT_DIR$/target/classes/application.properties" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cespedesz07/lectura/LecturaController.class" afterPath="$PROJECT_DIR$/target/classes/com/cespedesz07/lectura/LecturaController.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,11 +22,61 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SecuenciaActividadesController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cespedesz07/secuenciaActividades/SecuenciaActividadesController.java">
+      <file leaf-file-name="t1B1.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tagged_texts/B1/t1B1.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+            <state relative-caret-position="195">
+              <caret line="58" column="34" lean-forward="false" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="t2B1.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tagged_texts/B1/t2B1.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="252" column="34" lean-forward="false" selection-start-line="252" selection-start-column="34" selection-end-line="252" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="t3B1.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tagged_texts/B1/t3B1.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="511" column="36" lean-forward="false" selection-start-line="511" selection-start-column="25" selection-end-line="511" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="t4B1.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tagged_texts/B1/t4B1.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="656" column="34" lean-forward="false" selection-start-line="656" selection-start-column="25" selection-end-line="656" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="t5B1.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tagged_texts/B1/t5B1.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="887" column="35" lean-forward="false" selection-start-line="887" selection-start-column="24" selection-end-line="887" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -53,9 +95,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ctag=&quot;WRB&quot;</find>
-      <find>.jar</find>
-      <find>ActivitiesGeneratorBE</find>
       <find>lemma=&quot;have&quot;</find>
       <find>hasn</find>
       <find>have</find>
@@ -76,13 +115,16 @@
       <find>lemma=&quot;be&quot;</find>
       <find>&quot;what&quot;</find>
       <find>conjunction</find>
-      <find>VBZ</find>
-      <find>VBP</find>
       <find>used</find>
       <find>mappedBy</find>
       <find>httpRequete</find>
       <find>servletContext</find>
       <find>httpRequest</find>
+      <find>VBZ</find>
+      <find>VBP</find>
+      <find>form=&quot;has&quot;</find>
+      <find>form=&quot;been&quot;</find>
+      <find>doesn</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -146,10 +188,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/cespedesz07/lectura/LecturaController.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/cespedesz07/enviarEmail/EnviarEmail.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/cespedesz07/enviarEmail/IEstructuraEmail.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cespedesz07/enviarEmail/EstructuraEmail.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cespedesz07/enviarEmail/EnviarEmailController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -210,6 +252,23 @@
             <path>
               <item name="ActivitiesGeneratorBE" type="b2602c69:ProjectViewProjectNode" />
               <item name="ActivitiesGeneratorBE" type="462c0819:PsiDirectoryNode" />
+              <item name="lectures" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ActivitiesGeneratorBE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ActivitiesGeneratorBE" type="462c0819:PsiDirectoryNode" />
+              <item name="lectures" type="462c0819:PsiDirectoryNode" />
+              <item name="B1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ActivitiesGeneratorBE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ActivitiesGeneratorBE" type="462c0819:PsiDirectoryNode" />
+              <item name="lectures" type="462c0819:PsiDirectoryNode" />
+              <item name="B2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ActivitiesGeneratorBE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ActivitiesGeneratorBE" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -217,39 +276,6 @@
               <item name="ActivitiesGeneratorBE" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ActivitiesGeneratorBE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ActivitiesGeneratorBE" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ActivitiesGeneratorBE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ActivitiesGeneratorBE" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cespedesz07" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ActivitiesGeneratorBE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ActivitiesGeneratorBE" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cespedesz07" type="462c0819:PsiDirectoryNode" />
-              <item name="enviarEmail" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ActivitiesGeneratorBE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ActivitiesGeneratorBE" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cespedesz07" type="462c0819:PsiDirectoryNode" />
-              <item name="secuenciaActividades" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ActivitiesGeneratorBE" type="b2602c69:ProjectViewProjectNode" />
@@ -257,6 +283,17 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ActivitiesGeneratorBE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ActivitiesGeneratorBE" type="462c0819:PsiDirectoryNode" />
+              <item name="tagged_texts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ActivitiesGeneratorBE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ActivitiesGeneratorBE" type="462c0819:PsiDirectoryNode" />
+              <item name="tagged_texts" type="462c0819:PsiDirectoryNode" />
+              <item name="B1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -280,8 +317,8 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/lectures/B1" />
-      <recent name="$PROJECT_DIR$/lectures/C1" />
       <recent name="$PROJECT_DIR$/lectures/B2" />
+      <recent name="$PROJECT_DIR$/lectures/C1" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -522,13 +559,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.5.RELEASE/spring-webmvc-4.3.5.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestResponseBodyMethodProcessor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="91" column="0" lean-forward="false" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.5.RELEASE/spring-web-4.3.5.RELEASE.jar!/org/springframework/web/method/support/HandlerMethodReturnValueHandlerComposite.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -646,46 +676,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="454">
           <caret line="59" column="5" lean-forward="false" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tagged_texts/B1/t1B1.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="666" column="67" lean-forward="false" selection-start-line="666" selection-start-column="64" selection-end-line="666" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tagged_texts/B1/t2B1.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="187" column="31" lean-forward="false" selection-start-line="187" selection-start-column="31" selection-end-line="187" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tagged_texts/B1/t3B1.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="219" column="55" lean-forward="false" selection-start-line="219" selection-start-column="52" selection-end-line="219" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tagged_texts/B1/t4B1.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="495" column="35" lean-forward="false" selection-start-line="495" selection-start-column="31" selection-end-line="495" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tagged_texts/B1/t5B1.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="241" column="70" lean-forward="false" selection-start-line="241" selection-start-column="60" selection-end-line="241" selection-end-column="70" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -893,14 +883,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="45" lean-forward="false" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
@@ -914,7 +896,7 @@
         <state relative-caret-position="152">
           <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -945,8 +927,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cespedesz07/secuenciaActividades/SecuenciaActividadesController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
+        <state relative-caret-position="123">
           <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.6/tomcat-embed-core-8.5.6.jar!/org/apache/tomcat/util/threads/TaskThread.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10">
+          <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tagged_texts/B1/t5B1.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="887" column="35" lean-forward="false" selection-start-line="887" selection-start-column="24" selection-end-line="887" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tagged_texts/B1/t4B1.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="656" column="34" lean-forward="false" selection-start-line="656" selection-start-column="25" selection-end-line="656" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tagged_texts/B1/t3B1.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="511" column="36" lean-forward="false" selection-start-line="511" selection-start-column="25" selection-end-line="511" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tagged_texts/B1/t2B1.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="252" column="34" lean-forward="false" selection-start-line="252" selection-start-column="34" selection-end-line="252" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tagged_texts/B1/t1B1.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="58" column="34" lean-forward="false" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
           <folding />
         </state>
       </provider>
